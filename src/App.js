@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Sketch from "./Sketch";
+import styled from "styled-components";
+import BottomSettings from "./BottomSettings";
+
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(51, 51, 51);
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Sketch />
+      {/* <BottomSettings /> */}
+    </Container>
   );
 }
 
