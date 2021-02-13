@@ -178,7 +178,7 @@ function Visual(props) {
           <button onClick={startSort}>Sort</button>
         </BtnDiv>
         <SliderDiv>
-          <h4 style={{ marginRight: "20px", color="white" }}>Array Size</h4>
+          <h4 style={{ marginRight: "20px", color: "white" }}>Array Size</h4>
           <Slider
             min={5}
             max={100}
@@ -195,7 +195,7 @@ function Visual(props) {
           </select>
         </SliderDiv> */}
         <SliderDiv>
-          <h4 style={{ marginRight: "20px", color="white" }}>Sort Speed</h4>
+          <h4 style={{ marginRight: "20px", color: "white" }}>Sort Speed</h4>
           <Slider
             min={0}
             max={500}
